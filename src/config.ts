@@ -58,24 +58,29 @@ export const profileConfig: ProfileConfig = {
 	bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
 	links: [
 		{
-			name: "LinkedIn",
-			icon: "fa6-brands:linkedin",
-			url: "https://www.linkedin.com/in/pawarherschel/",
+			name: "Email",
+			icon: "fa6-solid:envelope",
+			url: "mailto:YOUR_EMAIL",
 		},
 		{
-			name: "Medium",
-			icon: "fa6-brands:medium",
-			url: "https://medium.com/@pawarherschel",
+			name: "LinkedIn",
+			icon: "fa6-brands:linkedin",
+			url: "https://www.linkedin.com/in/YOUR_LINKEDIN",
 		},
 		{
 			name: "GitHub",
 			icon: "fa6-brands:github",
-			url: "https://github.com/pawarherschel",
+			url: "https://github.com/YOUR_GITHUB",
+		},
+		{
+			name: "Medium",
+			icon: "fa6-brands:medium",
+			url: "https://medium.com/@YOUR_MEDIUM",
 		},
 		{
 			name: "Twitter",
 			icon: "fa6-brands:twitter",
-			url: "https://twitter.com/pawarherschel",
+			url: "https://twitter.com/YOUR_TWITTER",
 		}
 	],
 };
