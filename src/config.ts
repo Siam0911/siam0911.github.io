@@ -8,8 +8,8 @@ import type {
 import { LinkPreset } from "./types/config";
 
 export const siteConfig: SiteConfig = {
-  title: "king",
-  subtitle: "Website",
+  title: "OxHanzala",
+  subtitle: "Blogs Website",
   lang: "en", // 'en', 'zh_CN', 'zh_TW', 'ja', 'ko', 'es', 'th'
   themeColor: {
     hue: 45, // Default hue for the theme color (0–360). e.g. red: 0, teal: 200
@@ -64,22 +64,22 @@ export const profileConfig: ProfileConfig = {
     {
       name: "LinkedIn",
       icon: "fa6-brands:linkedin",
-      url: "https://www.linkedin.com/in/hanzalaghayas",
+      url: "https://www.linkedin.com/in/hanzala-ghayas-abbasi/",
     },
     {
       name: "GitHub",
       icon: "fa6-brands:github",
-      url: "https://github.com/hanzalaghayas",
+      url: "https://github.com/hanzalaghayasabbasi",
     },
     {
       name: "Medium",
       icon: "fa6-brands:medium",
-      url: "https://medium.com/@hanzalaghayas",
+      url: "https://medium.com/@hanzalaghayasabbasi01",
     },
     {
-      name: "Twitter",
-      icon: "fa6-brands:twitter",
-      url: "https://twitter.com/hanzalaghayas",
+     name: "X",
+     icon: "fa6-brands:x-twitter", // This is the updated FontAwesome 6 icon for X
+     url: "https://x.com/HanzalaGhayas?t=MAzDXQSQ7FhsQeQog1zBZw&s=09",
     },
   ],
 };
