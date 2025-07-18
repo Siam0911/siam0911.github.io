@@ -83,6 +83,8 @@ The user flag is on the Desktop in the file name user.txt.
 
 **Ans:** THM{H*************E}
 
+---
+
 ## Task 3 : Breaching the Control Room
 
 
@@ -139,6 +141,8 @@ Congratulations, You have done Privilege Escalation.
 **4 Now that we’ve confirmed that we have an elevated prompt, read the contents of root.txt on the Administrator’s desktop. What are the contents? Keep your terminal up after exploitation so we can use it in task four!?**
 
 **Ans :** THM{C************************N}
+
+---
 
 ## Task 4 : Adoption into the Collective
 
