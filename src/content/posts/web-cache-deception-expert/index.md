@@ -41,7 +41,7 @@ This lab demonstrates how attackers can abuse exact-match cache rules to trick c
 
 Certain resources like `robots.txt`, `favicon.ico`, and `index.html` are often cached using exact-match filename rules. An attacker can exploit discrepancies in how URLs are interpreted by the cache vs the origin server to expose or cache sensitive user data.
 
----
+
 
 ## Detecting Normalization Discrepancies
 
@@ -66,7 +66,6 @@ Observe the CSRF token in `/my-account`.
 
 ![CSRF Token in /my-account](https://github.com/user-attachments/assets/9114f8cc-bd8c-436c-a5b0-45aa616e099f)
 
----
 
 ### Step 2 – Investigate Path Discrepancies
 
@@ -87,7 +86,6 @@ Observe responses. Note which variants return 200.
 
 ![200 Responses on ; and ?](https://github.com/user-attachments/assets/bfe24e8e-13b3-4afa-b5b0-5d801510d134)
 
----
 
 ### Step 3 – Check Caching Behavior
 
@@ -100,7 +98,7 @@ Return 200 but show **no cache**.
 
 ![No Cache Evident](https://github.com/user-attachments/assets/36b964c8-6b8d-4c1d-bd8b-40173d19d9f6)
 
----
+
 
 ### Step 4 – Test Normalization Discrepancy
 
@@ -121,7 +119,7 @@ Try `/aaa/..%2frobots.txt`:
 
 ![Cache Hit on Normalized Path](https://github.com/user-attachments/assets/9306a0d6-18da-4d4b-894c-63590584fa1b)
 
----
+
 
 ### Step 5 – Poison the Cache
 
@@ -139,7 +137,6 @@ Resend:
 
 The response includes sensitive data (your CSRF token), now cached.
 
----
 
 ### Step 6 – Deliver Exploit to Victim
 
@@ -160,7 +157,7 @@ Verify this by resending the same request:
 
 ![Token Appears](https://github.com/user-attachments/assets/2890699e-ee32-4fd7-9b4b-7772af7e4235)
 
----
+
 
 ### Step 7 – Craft and Send CSRF Exploit
 
