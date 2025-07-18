@@ -25,7 +25,7 @@ After compromising the network, you must submit a professional penetration testi
 
 Finally, you’re required to deliver a live debrief session. I prepared a PowerPoint presentation to walk through my findings, but presenting your report directly is also encouraged.
 
----
+
 
 ## Whoami?
 
@@ -33,13 +33,13 @@ I’m currently an undergraduate student in my 8th semester. Over the past 3 yea
 
 I began with TryHackMe, reaching the Top 1% globally. I later specialized in web application security via PortSwigger’s Web Security Academy, where I currently rank #67. I also train regularly on Hack The Box and participate in CTFs, often developing web challenges for competitions as well.
 
----
+
 
 ## Why I Chose PNPT
 
 I chose the PNPT because it reflects real-world pentesting. The exam doesn’t test memorization or isolated challenges. It evaluates your ability to handle full-scope engagements from reconnaissance to reporting and client communication — skills essential for any professional penetration tester.
 
----
+
 
 ## Preparation
 
@@ -57,7 +57,7 @@ While the PEH course alone is sufficient to pass the exam, I went through all fi
 
 Additionally, I practiced enumeration, privilege escalation, and lateral movement on Hack The Box, and set up my own Active Directory lab to understand internal networks better.
 
----
+
 
 ## Tips
 
