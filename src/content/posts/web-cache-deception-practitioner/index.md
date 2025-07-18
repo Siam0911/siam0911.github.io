@@ -204,3 +204,17 @@ If the **cache server** decodes paths (e.g., `/my-account%2f%2e%2e%2fresources` 
 11. Submit the API key to complete the lab.
     ![Lab Completion](https://github.com/user-attachments/assets/a78ed3de-8899-4c5a-a25b-d0042200d044)
 
+## Conclusion
+
+These Practitioner-level labs demonstrate how subtle inconsistencies in how cache servers and origin servers interpret URLs can lead to serious vulnerabilities. By exploiting differences in **delimiter parsing**, **path normalization**, and **encoded character handling**, attackers can trick caching layers into storing and serving sensitive user data.
+
+As a developer or security engineer, it's critical to:
+
+* Ensure authentication checks are not bypassable via alternative path encodings.
+* Prevent caching of user-specific responses under any circumstances.
+* Understand how your CDN and application framework parse and normalize paths.
+
+Even seemingly innocuous URL structures can have severe consequences if caching layers and backend logic fall out of sync. Proper cache controls, strict routing logic, and thorough testing are essential defenses against these attacks.
+
+---
+
