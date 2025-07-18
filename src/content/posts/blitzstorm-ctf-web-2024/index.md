@@ -123,7 +123,6 @@ The configuration files for setting up and running the above web challenges are 
 
 👉 [**View the repository here**](https://github.com/hanzalaghayasabbasi/Web-CTF)
 
----
 
 Thanks to everyone who participated — great job! 👏
 
