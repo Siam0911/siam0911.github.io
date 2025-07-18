@@ -31,7 +31,8 @@ This blog post explores **Web Cache Deception**, a vulnerability arising from di
 2. [Lab 1: Exploiting Path Delimiters for Web Cache Deception](#lab-1-exploiting-path-delimiters-for-web-cache-deception)
 3. [Lab 2: Exploiting Origin Server Normalization for Web Cache Deception](#lab-2-exploiting-origin-server-normalization-for-web-cache-deception)
 4. [Lab 3: Exploiting Cache Server Normalization for Web Cache Deception](#lab-3-exploiting-cache-server-normalization-for-web-cache-deception)
-5. [Conclusion](#Conclusion)
+5. [Conclusion](#conclusion)
+
 
 ---
 
