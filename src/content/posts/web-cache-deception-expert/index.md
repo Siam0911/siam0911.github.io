@@ -12,13 +12,13 @@ draft: false
 
 ## Prerequisites
 
-To complete this lab, you should have the following:
+To complete this lab, ensure you have:
 
-* A PortSwigger Web Security Academy account (free)
+* A [PortSwigger Web Security Academy](https://portswigger.net/web-security) account
 * Burp Suite (Community or Professional edition)
-* FoxyProxy or another method to route browser traffic through Burp
-* Basic understanding of web caching behavior and CSRF
-* Familiarity with HTML, HTTP requests, and browser dev tools
+* A proxy extension like FoxyProxy configured in your browser
+* JavaScript enabled in your browser
+* Familiarity with web caching mechanisms, HTTP, HTML, and CSRF concepts
 
 ---
 
