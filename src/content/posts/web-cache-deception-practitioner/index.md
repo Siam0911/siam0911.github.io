@@ -13,12 +13,12 @@ draft: false
 
 ## Prerequisites
 
-To follow along with these labs, ensure you have:
+To follow along, ensure you have:
 
-- A PortSwigger Academy account (free)
-- Burp Suite (Community or Professional)
-- FoxyProxy configured to route browser traffic through Burp
-- JavaScript enabled in browser
+* A [PortSwigger Academy](https://portswigger.net/web-security) account (free)
+* Burp Suite (Community or Professional)
+* FoxyProxy (or equivalent proxy setup)
+* JavaScript enabled in your browser
 
 # Web Cache Deception: Exploiting Path Delimiters and Normalization (Practitioner Labs)
 
