@@ -116,7 +116,7 @@ Make sure the path (`hanzalaa.js`) is different than the one you cached previous
 
 ![Exploit Delivery](https://github.com/user-attachments/assets/53351c6e-5477-42fd-96f7-2231f255f43b)
 
----
+
 
 ### Validate the Attack
 
