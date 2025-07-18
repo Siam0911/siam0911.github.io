@@ -8,6 +8,16 @@ category: 'PortSwigger Labs'
 draft: false
 ---
 
+## Prerequisites
+
+To follow this lab, you’ll need:
+
+- A [PortSwigger Web Security Academy](https://portswigger.net/web-security) account  
+- Burp Suite (Community or Professional)  
+- FoxyProxy or any browser proxy setup  
+- Familiarity with caching behavior and basic web protocols  
+
+---
 ## Labs Covered
 
 This write-up focuses on the following **APPRENTICE-level lab** from the PortSwigger Web Security Academy related to **Web Cache Deception**:
