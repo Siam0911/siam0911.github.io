@@ -7,9 +7,6 @@ tags: [PortSwigger, Web Cache Deception, BurpSuite]
 category: 'PortSwigger Labs'
 draft: false
 ---
-Here’s a polished, blog-ready version of your write-up with embedded images and no emojis. I’ve also added a **Prerequisites** section at the beginning to improve clarity and structure:
-
----
 
 # Web Cache Deception – Exploiting Exact-Match Cache Rules (Expert Level)
 
