@@ -118,7 +118,7 @@ Then a browser will open in front of you have to save the page and then click on
 
 ![saves_as](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*70xJr9PgNu2aT6OzgjGsig.png)
 
-Save Page at **C:\Windows\System32\*.* and the click save option.
+Save Page at **C:\Windows\System32\\** and the click save option.
 
 ![Save_location](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*nrMfa4ZrhuJH4yLUA_vxQw.png)
 
