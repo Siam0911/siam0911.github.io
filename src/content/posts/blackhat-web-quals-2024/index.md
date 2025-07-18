@@ -26,7 +26,6 @@ We’re thrilled to share that our team made it into the **Top 100** for the **B
 
 🔗 [Challenge Files](https://github.com/hanzalaghayasabbasi/BlackHat-MEA-2024-Qualifiers-Write-Ups/tree/main/Watermelon-src)
 
----
 
 ###  Walkthrough
 
