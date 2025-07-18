@@ -10,6 +10,8 @@ draft: false
 
 This Grep challenge tests your reconnaissance and OSINT skills using a vulnerable machine hosted on TryHackMe.
 
+---
+
 **Start this room by hitting the “deploy” button. Once deployed, you are assigned an IP address.**
 
 Below is the Nmap command used for scanning:
