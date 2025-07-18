@@ -43,7 +43,7 @@ We get a readable response. Attempting `/etc/shadow` fails due to permission iss
 
 ![permission-error](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*wZ436qPBlH3-8x_bniWz2A.png)
 
----
+
 
 ### Nginx Configuration Enumeration
 
@@ -71,7 +71,7 @@ server {
 
 This tells us `/ttydremote` is protected by basic auth using `/etc/nginx/.htpasswd`.
 
----
+
 
 ### Cracking Credentials
 
@@ -92,7 +92,6 @@ And we get:
 
 ![cracked-password](https://miro.medium.com/v2/resize\:fit:1400/format\:webp/1*opeDSCTAo1KP8SIhU_tUew.png)
 
----
 
 ###  Gaining Access
 
@@ -102,7 +101,6 @@ Accessing `/ttydremote` prompts for credentials. We use the cracked ones:
 
 Now we’re inside the system as a low-privileged user.
 
----
 
 ###  Privilege Escalation
 
@@ -116,7 +114,7 @@ Check [GTFOBins](https://gtfobins.github.io/#ansible-playbook) for escalation st
 
 Execute the suggested commands, gain a root shell, and grab the flag.
 
----
+
 
 ###  Final Flag
 
