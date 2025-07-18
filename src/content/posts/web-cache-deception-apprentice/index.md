@@ -39,7 +39,6 @@ This section demonstrates:
 - How to identify path mapping vulnerabilities
 - How to store private responses in cache for exploitation
 
----
 
 ### Solution
 
@@ -86,7 +85,7 @@ Send the request and check the headers:
 
 ![X-Cache: hit](https://github.com/user-attachments/assets/d45155d7-d2bb-41ea-8b89-6bbc23869512)
 
----
+
 
 ### Exploit Execution
 
@@ -121,7 +120,7 @@ Make sure the path (`hanzalaa.js`) is different than the one you cached previous
 
 ![Carlos API Key](https://github.com/user-attachments/assets/95ef3677-a26a-4ba5-8bda-700803c87bfa)
 
----
+
 
 ###  Final Step
 
@@ -129,9 +128,8 @@ Submit Carlos’s API key to solve the lab:
 
 ![Submit Key](https://github.com/user-attachments/assets/a1a15877-7a66-44f0-a58c-664b40b74b8c)
 
----
+
 ### Conclusion
 
 This lab clearly demonstrates how subtle discrepancies between cache behavior and server logic can lead to severe security flaws like data leakage. Attackers can exploit these differences by crafting misleading URL paths to cache sensitive content intended for authenticated users. Always ensure your caching logic aligns with your authentication and routing mechanisms.
 
----
