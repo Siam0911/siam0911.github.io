@@ -122,7 +122,7 @@ Access the uploaded file to get a reverse shell.
 ![upload\_folder](https://miro.medium.com/v2/resize\:fit:1236/format\:webp/1*ba5S85qfKJT7RJCrjOmT8w.png)
 
 :::tip
-> If you don’t receive a reverse shell, move the `<?php` tag in the script after a comment line. This avoids corruption from hex editing the first line.
+If you don’t receive a reverse shell, move the `<?php` tag in the script after a comment line at the starting. This avoids corruption from hex editing the first line.
 :::
 
 With shell access, locate `users.sql` containing admin credentials.
@@ -146,5 +146,3 @@ Go to `https://leakchecker.grep.thm`, enter the admin email, and the password is
 ![emailleak\_checker](https://miro.medium.com/v2/resize\:fit:1400/format\:webp/1*nTs4LlEFDr-Mj5DbZycS1A.png)
 
 **Admin Password:** `a**************!`
-
----
