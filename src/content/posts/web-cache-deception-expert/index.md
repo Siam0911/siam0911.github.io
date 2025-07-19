@@ -4,7 +4,7 @@ published: 2024-09-12
 description: 'Walkthrough of the Expert-level Web Cache Deception lab from PortSwigger Academy, focusing on exploiting exact-match cache rules using advanced path normalization techniques.'
 image: './cover.jpg'
 tags: [PortSwigger, WebCache , Portswigger]
-category: 'PortSwigger Labs'
+category: 'PS Labs '
 draft: false
 ---
 
