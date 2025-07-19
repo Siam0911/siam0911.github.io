@@ -5,7 +5,7 @@ description: >
   Practitioner-level Web Cache Deception labs from PortSwigger Academy covering
   path delimiter abuse, normalization discrepancies in origin and cache servers, and
   how these mismatches lead to private data exposure via cache poisoning.
-tags: [PortSwigger, WebCache , Portswigger]
+tags: [PortSwigger, WebCache ,WebSecurity]
 category: 'PortSwigger'
 image: './cover.jpg'
 draft: false
