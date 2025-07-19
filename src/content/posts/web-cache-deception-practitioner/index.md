@@ -15,7 +15,7 @@ draft: false
 
 To follow along, ensure you have:
 
-* A [PortSwigger Academy](https://portswigger.net/web-security) account (free)
+* A [PortSwigger Academy](https://portswigger.net/web-security) account 
 * Burp Suite (Community or Professional)
 * FoxyProxy (or equivalent proxy setup)
 * JavaScript enabled in your browser
