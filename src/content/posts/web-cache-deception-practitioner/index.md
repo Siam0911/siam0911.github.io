@@ -6,7 +6,7 @@ description: >
   path delimiter abuse, normalization discrepancies in origin and cache servers, and
   how these mismatches lead to private data exposure via cache poisoning.
 tags: [PortSwigger, WebCache , Portswigger]
-category: 'PortSwigger Labs'
+category: 'PortSwigger'
 image: './cover.jpg'
 draft: false
 ---
